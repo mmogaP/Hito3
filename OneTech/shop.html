@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shop</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="OneTech shop project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="styles/shop_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/shop_responsive.css">
+
+</head>
+
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+	
+	<header class="header">
+
+		<!-- Top Bar -->
+
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex flex-row">
+
+						<div class="top_bar_content ml-auto">
+							<div class="top_bar_menu">
+							</div>
+							<div class="top_bar_user">
+								<div class="user_icon"><img src="images/user.svg" alt=""></div>
+								<div><a href="#">Register</a></div>
+								<div><a href="#">Sign in</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+
+		<!-- Header Main -->
+
+		<div class="header_main">
+			<div class="container">
+				<div class="row">
+
+					<!-- Logo -->
+					<div class="col-lg-2 col-sm-3 col-3 order-1">
+						<div class="logo_container">
+							<div class="logo"><img src="images/theBookPath.png" height="150" width="150"></div>
+						</div>
+					</div>
+
+					<!-- Search -->
+					<div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+						<div class="header_search">
+							<div class="header_search_content">
+								<div class="header_search_form_container">
+									<form action="#" class="header_search_form clearfix">
+										<input type="search" required="required" class="header_search_input" placeholder="Search for products...">
+										<div class="custom_dropdown">
+											<div class="custom_dropdown_list">
+												<span class="custom_dropdown_placeholder clc">All Categories</span>
+												<i class="fas fa-chevron-down"></i>
+												<ul class="custom_list clc">
+													<li><a class="clc" href="#">All Categories</a></li>
+													<li><a class="clc" href="#">Computers</a></li>
+													<li><a class="clc" href="#">Laptops</a></li>
+													<li><a class="clc" href="#">Cameras</a></li>
+													<li><a class="clc" href="#">Hardware</a></li>
+													<li><a class="clc" href="#">Smartphones</a></li>
+												</ul>
+											</div>
+										</div>
+										<button type="submit" class="header_search_button trans_300" value="Submit"><img src="images/search.png" alt=""></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Main Navigation -->
+
+		<nav class="main_nav">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						
+						<div class="main_nav_content d-flex flex-row">
+
+							<!-- Categories Menu -->
+
+							<div class="cat_menu_container">
+								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
+									<div class="cat_burger"><span></span><span></span><span></span></div>
+									<div class="cat_menu_text">categories</div>
+								</div>
+								<ul class="cat_menu">
+									<li><a href="#">Autoayuda<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Biografias<i class="fas fa-chevron-right"></i></a></li>
+									<li class="hassubs">
+										<a href="#">Ciencia Ficción y Fantasía<i class="fas fa-chevron-right"></i></a>
+										<ul>
+											<li><a href="#">Épica<i class="fas fa-chevron-right"></i></a></li>
+											<li><a href="#">Militar<i class="fas fa-chevron-right"></i></a></li>
+											<li><a href="#">Vida Urbana<i class="fas fa-chevron-right"></i></a></li>
+										</ul>
+									</li>
+									<li><a href="#">Historia<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Misterio<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Novelas<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Religion y Espiritualidad<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Informatica y Tecnologia<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Finanzas<i class="fas fa-chevron-right"></i></a></li>
+								</ul>
+							</div>
+
+							<!-- Main Nav Menu -->
+
+							<div class="main_nav_menu ml-auto">
+								<ul class="standard_dropdown main_nav_dropdown">
+									<li><a href="index.html">Inicio<i class="fas fa-chevron-down"></i></a></li>
+									<li>
+										<a href="shop.html">De tu interés<i class="fas fa-chevron-down"></i></a>
+									</li>
+									<li>
+										<a href="cart.html">Carrito<i class="fas fa-chevron-down"></i></a>
+									</li>
+									<li>
+										<a href="contact.html">Contacto<i class="fas fa-chevron-down"></i></a>
+									</li>
+
+								</ul>
+							</div>
+
+							<!-- Menu Trigger -->
+
+							<div class="menu_trigger_container ml-auto">
+								<div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
+									<div class="menu_burger">
+										<div class="menu_trigger_text">menu</div>
+										<div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Menu -->
+
+		<div class="page_menu">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						
+						<div class="page_menu_content">
+							
+							<div class="page_menu_search">
+								<form action="#">
+									<input type="search" required="required" class="page_menu_search_input" placeholder="Search for products...">
+								</form>
+							</div>
+							<ul class="page_menu_nav">
+								<li class="page_menu_item">
+									<a href="index.html">Inicio<i class="fa fa-angle-down"></i></a>
+								</li>
+								<li class="page_menu_item">
+									<a href="shop.html">De tu interés<i class="fa fa-angle-down"></i></a>
+								</li>
+								<li class="page_menu_item">
+									<a href="cart.html">Carrito<i class="fa fa-angle-down"></i></a>
+								</li>
+								<li class="page_menu_item"><a href="contact.html">contacto<i class="fa fa-angle-down"></i></a></li>
+							</ul>
+							
+							<div class="menu_contact">
+								<div class="menu_contact_item"><div class="menu_contact_icon"><img src="images/phone_white.png" alt=""></div>+38 068 005 3570</div>
+								<div class="menu_contact_item"><div class="menu_contact_icon"><img src="images/mail_white.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/librosShop.jpg"></div>
+		<div class="home_overlay"></div>
+		<div class="home_content d-flex flex-column align-items-center justify-content-center">
+			<h2 class="home_title">BIOGRAFIAS, NOVELAS Y MAS...</h2>
+		</div>
+	</div>
+
+	<!-- Shop -->
+
+	<div class="shop">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+
+					<!-- Shop Sidebar -->
+					<div class="shop_sidebar">
+						<div class="sidebar_section">
+							<div class="sidebar_title">Categorias</div>
+							<ul class="sidebar_categories">
+								<li><a href="#">Autobiografias</a></li>
+								<li><a href="#">Historia</a></li>
+								<li><a href="#">Novelas</a></li>
+								<li><a href="#">Religion y espiritismo</a></li>
+								<li><a href="#">Cientificos</a></li>
+								<li><a href="#">Mangas</a></li>
+								<li><a href="#">Escolares</a></li>
+								<li><a href="#">Para Colorear</a></li>
+								<li><a href="#">Cocina</a></li>
+								<li><a href="#">Informatica y tecnologia</a></li>
+							</ul>
+						</div>
+						
+						
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-9">
+					
+					<!-- Shop Content -->
+
+					<div class="shop_content">
+						<div class="shop_bar clearfix">
+							<div class="shop_product_count">Segun tus intereses</div>
+							<div class="shop_sorting">
+								<span>ORDENAR POR:</span>
+								<ul>
+									<li>
+										<span class="sorting_text">Nombre<i class="fas fa-chevron-down"></span></i>
+										<ul>
+											<li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>Nombre</li>
+											<li class="shop_sorting_button"data-isotope-option='{ "sortBy": "price" }'>Precio</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="product_grid">
+							<div class="product_grid_border"></div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/Senordelos2anillos.jpg" width="90" height="120"></div>
+								<div class="product_content">
+									<div class="product_price">$6990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">El señor de los anillos: Las dos torres</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item discount">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/c++.jpg" width="90" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$9990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Algoritmos aplicados a c++</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/laClaveEstaEnRebeca.jpg" width="150" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$4990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">La clave esta en Rebeca</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/laComDelAn.jpg" width="90" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$6990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">La comunidad del anillo</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/js.jpg" width="90" height="110"></div>
+								<div class="product_content">
+									<div class="product_price">$3990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Mis latidos Jorge Sampaoli</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/pythonParaTodos.jpg" width="150" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$5990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Python Para Todos</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/PHPfordrummies.jpg" width="120" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$379<span>$5300</span></div>
+									<div class="product_name"><div><a href="#" tabindex="0">PHP5 for drummies</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/laCamasutraDeGrey.jpg" width="120" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$5990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">La Kamasutra de Grey</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/cruzadaEnJeans.jpg" width="120" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$6990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Cruzada en jeans</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/javascriptForDevelopers.jpg" width="120" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$11990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Javascript for web developers</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/harryPotterSet.jpg" width="150" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$9990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Pack libros de Harry potter</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/elLegadoDeMandela.jpg" width="100" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$7990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">El legado de Mandela</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/ingenieriaDeSoftware.jpg" width="100" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$7990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Ingenieria de software</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/lunaDePluton.jpg" width="150" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$5990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Luna de Pluton</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item discount">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/md.jpg" width="100" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$8990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">2000 problemas resueltos de matematicas discretas</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									
+									
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/dAnaFrank.png" width="170" height="170"></div>
+								<div class="product_content">
+									<div class="product_price">$9990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Diario de Ana Frank</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/elSobrinoDelMago.jpg" width="100" height="130"></div>
+								<div class="product_content">
+									<div class="product_price">$6990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">El sobrino del mago</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/diFlu.jpg" width="150" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$8990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Algoritmos y diagramas de flujos con Raptor</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/miSistema.jpg" width="120" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$6990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">Mi sistema Nimsovich</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/defensa.jpg" width="150" height="150"></div>
+								<div class="product_content">
+									<div class="product_price">$7990</div>
+									<div class="product_name"><div><a href="#" tabindex="0">La defensa Siciliana</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+						</div>
+
+						<!-- Shop Page Navigation -->
+
+						<div class="shop_page_nav d-flex flex-row">
+							<div class="page_prev d-flex flex-column align-items-center justify-content-center"><i class="fas fa-chevron-left"></i></div>
+							<ul class="page_nav d-flex flex-row">
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">...</a></li>
+								<li><a href="#">21</a></li>
+							</ul>
+							<div class="page_next d-flex flex-column align-items-center justify-content-center"><i class="fas fa-chevron-right"></i></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Recently Viewed -->
+
+	<div class="viewed">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="viewed_title_container">
+						<h3 class="viewed_title">Recien buscado</h3>
+						<div class="viewed_nav_container">
+							<div class="viewed_nav viewed_prev"><i class="fas fa-chevron-left"></i></div>
+							<div class="viewed_nav viewed_next"><i class="fas fa-chevron-right"></i></div>
+						</div>
+					</div>
+
+					<div class="viewed_slider_container">
+						
+						<!-- Recently Viewed Slider -->
+
+						<div class="owl-carousel owl-theme viewed_slider">
+							
+							<!-- Recently Viewed Item -->
+							<div class="owl-item">
+								<div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
+									<div class="viewed_image"><img src="images/s3.jpg" height="140" width="100"></div>
+									<div class="viewed_content text-center">
+										<div class="viewed_name"><a href="#">El señor de los anillos: el retorno del Rey</a></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Recently Viewed Item -->
+							<div class="owl-item">
+								<div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
+									<div class="viewed_image"><img src="images/maus.jpg" height="140" width="100"></div>
+									<div class="viewed_content text-center">
+										<div class="viewed_name"><a href="#">MAUS</a></div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- Recently Viewed Item -->
+							<div class="owl-item">
+								<div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
+									<div class="viewed_image"><img src="images/da.jpg" alt=""></div>
+									<div class="viewed_content text-center">
+
+										<div class="viewed_name"><a href="#">Diseño e implementación de algoritmo</a></div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- Recently Viewed Item -->
+							<div class="owl-item">
+								<div class="viewed_item is_new d-flex flex-column align-items-center justify-content-center text-center">
+									<div class="viewed_image"><img src="images/ma.jpg" alt=""></div>
+									<div class="viewed_content text-center">
+										<div class="viewed_name"><a href="#">El metodo Zugzwang</a></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Recently Viewed Item -->
+							<div class="owl-item">
+								<div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
+									<div class="viewed_image"><img src="images/dAnaFrank.png" alt=""></div>
+									<div class="viewed_content text-center">
+										<div class="viewed_name"><a href="#">El diario de Ana Frank</a></div>
+									</div>
+							
+								</div>
+							</div>
+
+							<!-- Recently Viewed Item -->
+							<div class="owl-item">
+								<div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
+									<div class="viewed_image"><img src="images/el.jpg" width="70" height="130"></div>
+									<div class="viewed_content text-center">
+										<div class="viewed_name"><a href="#">El libro de las respuestas de oro</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/shop_custom.js"></script>
+</body>
+
+</html>
